@@ -13,6 +13,12 @@ public class User{
   }
 
   public void imprimirSaludo(){
-    System.out.println("Hello" + name);
+    System.out.println("Hello" + this.name);
+  }
+
+  public String toString(){
+    System.out.println("{ name = " + this.name
+                        + "age = " + this.age
+                        + "info = "+ this.info  "}");
   }
 }
