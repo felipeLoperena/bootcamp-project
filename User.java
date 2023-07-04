@@ -11,4 +11,8 @@ public class User{
     this.age = age;
     this.info = info;
   }
+
+  public void imprimirSaludo(){
+    System.out.println("Hello" + name);
+  }
 }
