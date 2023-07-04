@@ -1,0 +1,17 @@
+/* Selector de elemento */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Selector de clase */
+.texto-destacado {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Selector de ID */
+#logo {
+  width: 150px;
+  height: 150px;
+}

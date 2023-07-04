@@ -1,0 +1,14 @@
+{
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "edad": 30,
+  "dirección": "Calle Principal 123",
+  "ciudad": "Ciudad Ejemplo",
+  "país": "Ejemplo",
+  "profesión": "Ingeniero",
+  "intereses": [
+    "deportes",
+    "música",
+    "lectura"
+  ]
+}
