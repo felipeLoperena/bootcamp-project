@@ -12,10 +12,6 @@ public class User{
     this.info = info;
   }
 
-  public void imprimirSaludo(){
-    System.out.println("Hello" + this.name);
-  }
-
   public String toString(){
     System.out.println("{ name = " + this.name
                         + "age = " + this.age
