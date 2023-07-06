@@ -21,4 +21,8 @@ public class User{
                         + "age = " + this.age
                         + "info = "+ this.info  "}");
   }
+
+  public boolean checkEmail(){
+    return true;
+  }
 }
