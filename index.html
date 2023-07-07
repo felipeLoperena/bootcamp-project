@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Mi Portafolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f1f1f1;
+    }
+
+    h1 {
+      margin-top: 50px;
+      color: #333;
+    }
+
+    .container {
+      margin-top: 50px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+
+    .project h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .project p {
+      color: #666;
+    }
+
+    .project .links a {
+      display: inline-block;
+      margin-right: 10px;
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
 <body>
+  <h1>Mi Portafolio</h1>
 
-<h2>What Can JavaScript Do?</h2>
+  <div class="container">
+    <div class="project">
+      <h2>Proyecto 1</h2>
+      <p>Descripción del proyecto 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="links">
+        <a href="#">Ver Demo</a>
+        <a href="#">Código Fuente</a>
+      </div>
+    </div>
 
-<p id="demo">JavaScript can change HTML content.</p>
+    <div class="project">
+      <h2>Proyecto 2</h2>
+      <p>Descripción del proyecto 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="links">
+        <a href="#">Ver Demo</a>
+        <a href="#">Código Fuente</a>
+      </div>
+    </div>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
-
+    <div class="project">
+      <h2>Proyecto 3</h2>
+      <p>Descripción del proyecto 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="links">
+        <a href="#">Ver Demo</a>
+        <a href="#">Código Fuente</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
